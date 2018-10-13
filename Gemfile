@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 group :production, :staging do
   gem 'rails_12factor'
 end
-ruby '2.2.2'
+ruby '2.5.1'
 gem 'rakuten_web_service'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
@@ -10,24 +10,27 @@ gem 'sprockets'
 gem 'google_custom_search_api'
 gem 'jp_prefecture'
 gem 'devise'
-gem 'activeadmin', github: 'activeadmin'
+#gem 'activeadmin', github: 'activeadmin'1.0.0.pre4
+gem 'activeadmin', '~> 1'
 gem 'font-awesome-sass'
 gem 'wicked'
 gem 'active_hash'
 gem 'newrelic_rpm'
 gem 'redis'
-gem 'redis-rails'
+#gem 'redis-rails'
+gem 'redis-rails', '~> 5 '
 gem 'month'
 gem 'momentjs-rails', '~> 2.9',  :github => 'derekprior/momentjs-rails'
 gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails', branch: 'master', submodules: true
-gem 'simple_form'
+#gem 'simple_form'
+gem 'simple_form', '~> 4.0 '
 gem 'twitter-bootstrap-rails-confirm'
 gem 'carrierwave'
 gem 'cloudinary'
 gem 'lightbox2-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails', '5.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -35,12 +38,12 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.2.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+#gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -78,6 +81,8 @@ end
 
 group :test do
   gem "minitest"
-  gem "minitest-rails"
+#  gem "minitest-rails", "~> 3"
+  gem "minitest-rails", "~> 3.0.0"
   gem "minitest-rails-capybara"
+  gem 'rspec-rails', '~> 3.6'
 end
