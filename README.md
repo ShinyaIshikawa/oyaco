@@ -1,4 +1,4 @@
-## OYACO
+## OYACO(ruby on rails application)
 [![Build Status](https://travis-ci.org/KahokuHanten/oyaco.svg?branch=master)](https://travis-ci.org/KahokuHanten/oyaco)
 * service: https://oyaco.herokuapp.com/
 * CI/test: https://travis-ci.org/KahokuHanten/oyaco
