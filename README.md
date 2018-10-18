@@ -1,3 +1,8 @@
+ruby on rails webアプリケーション oyaco　をアップデート予定
+
+・ruby on railsのバージョンアップ
+・dddを採用したアーキテクチャに変更する
+
 ## OYACO
 [![Build Status](https://travis-ci.org/KahokuHanten/oyaco.svg?branch=master)](https://travis-ci.org/KahokuHanten/oyaco)
 * service: https://oyaco.herokuapp.com/
