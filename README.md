@@ -1,6 +1,6 @@
 ruby on rails webアプリケーション oyaco　をアップデート予定
 
-・ruby on railsのバージョンアップ
+・ruby on railsのバージョンアップ<br>
 ・dddを採用したアーキテクチャに変更する
 
 ## OYACO
