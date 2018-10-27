@@ -10,7 +10,7 @@ gem 'sprockets'
 gem 'google_custom_search_api'
 gem 'jp_prefecture'
 gem 'devise'
-gem 'activeadmin', '~> 1.0.0.pre1'
+gem 'activeadmin'#, '~> 1.0.0.pre1'
 gem 'font-awesome-sass'
 gem 'wicked'
 gem 'active_hash'
@@ -27,7 +27,8 @@ gem 'cloudinary'
 gem 'lightbox2-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.10'
+gem 'rails', '5.0.3'
+gem 'railties', '5.0.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '0.21.0'
 # Use SCSS for stylesheets
@@ -48,6 +49,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'rails-controller-testing'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -81,7 +83,7 @@ group :development do
 end
 
 group :test do
-  gem "minitest"
-  gem "minitest-rails"
-  gem "minitest-rails-capybara"
+#  gem "minitest"
+  gem "minitest-rails", "~> 3.0.0"
+  gem "minitest-rails-capybara", "~> 3.0.0"
 end

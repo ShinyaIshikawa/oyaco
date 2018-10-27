@@ -50,7 +50,7 @@
                     <tr>
                       <td valign="middle">こんなプレゼントはいかがですか</td>
                       <td>
-                        <%= link_to image_tag(topic[:item][:imageUrl], size: '64x64'), topic[:item][:url], target: "_new" %></td>
+                        <%= link_to image_tag(topic[:item][:imageUrl], size: '64x64'), topic[:item][:url], target: "_new" unless topic[:item][:imageUrl].blank? %></td>
                     </tr>
                   </table>
                 <% end %>

@@ -1,10 +1,10 @@
-class Event < ActiveRecord::Base
+class Event < ApplicationRecord
   belongs_to :user
   belongs_to :person
   has_many :notes, dependent: :destroy
 
   mount_uploader :image, ImageUploader
-  
+
   enum kind: %i(birth death wedding annual onetime)
 
   validates :name, presence: true
