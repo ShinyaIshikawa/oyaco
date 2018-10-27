@@ -1,4 +1,4 @@
-class Note < ActiveRecord::Base
+class Note < ApplicationRecord
   belongs_to :event
   mount_uploader :image, ImageUploader
 end

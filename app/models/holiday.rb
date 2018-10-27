@@ -1,4 +1,4 @@
-class Holiday < ActiveRecord::Base
+class Holiday < ApplicationRecord
   alias_attribute :start_date, :date
 
   scope :soon, -> { where(date: Date.current..Date.current.months_since(Oyaco::Application.config.remind_months_ago)).order('date') }
