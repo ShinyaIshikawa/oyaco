@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 group :production, :staging do
   gem 'rails_12factor'
 end
-ruby '2.3.0'
+ruby '2.5.1'
 gem 'rakuten_web_service'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
@@ -83,7 +83,7 @@ group :development do
 end
 
 group :test do
-#  gem "minitest"
+  gem "minitest", "5.10.1"
   gem "minitest-rails", "~> 3.0.0"
   gem "minitest-rails-capybara", "~> 3.0.0"
 end
