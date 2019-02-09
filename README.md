@@ -1,8 +1,3 @@
-##enPitプログラムでスクラム開発された oyacoをアップデート予定 (ruby on rails)
-
-・ruby on railsを最新バージョンへアップデートする<br>
-・dddを採用したアーキテクチャに変更する
-
 ## OYACO
 [![Build Status](https://travis-ci.org/KahokuHanten/oyaco.svg?branch=master)](https://travis-ci.org/KahokuHanten/oyaco)
 * CI/test: https://travis-ci.org/KahokuHanten/oyaco
